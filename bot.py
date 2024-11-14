@@ -3,14 +3,14 @@ import time
 import pyshorteners
 import os
 
-bot = telebot.TeleBot(token=os.getenv('TG_BOT_TOKEN'))
+bot = telebot.TeleBot(token=os.getenv('7388672963:AAEcxCeYpH05ozw03-H-YS28RvxTgitRiq4'))
 
 def short(url):
     return pyshorteners.Shortener().tinyurl.short(url)
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
-    bot.reply_to(message, 'Heya! I am a File To Link Bot created by TeLe TiPs.Send me any file (Video, Audio, Photo, Document)👇🏻')
+    bot.reply_to(message, 'o yo yo. 148-3 to the 3 to the 6 to the 9, representing the ABQ, what up, biatch?!')
 
 @bot.message_handler(commands=['help'])
 def send_welcome(message):
