@@ -10,11 +10,11 @@ def short(url):
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
-    bot.reply_to(message, 'Heya! I am a File To Link Bot created by TeLe TiPs.Send me any file (Video, Audio, Photo, Document)👇🏻')
+    bot.reply_to(message, 'o yo yo. 148-3 to the 3 to the 6 to the 9, representing the ABQ, what up, biatch?!')
 
 @bot.message_handler(commands=['help'])
 def send_welcome(message):
-    bot.reply_to(message, 'Send me any type of a file & I will send you the shorten link of it')    
+    bot.reply_to(message, 'All command list')    
 
 @bot.message_handler(content_types=['photo', 'video', 'audio', 'document'])
 def file_sent(message):
