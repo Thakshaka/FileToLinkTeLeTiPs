@@ -1,10 +1,10 @@
 {
-    "name": "FileToLinkTeLeTiPs",
-    "description": "Bot to provide links of different types of files you send.",
-    "website": "https://FileToLinkTeLeTiPs/",
+    "name": "Blankartdigital",
+    "description": "Bot for buying in game currency and digital products",
+    "website": "https://t.me/blank1940",
     "repository": "https://github.com/Thakshaka/FileToLinkTeLeTiPs",
     "env": {
-          "TG_BOT_TOKEN": {"description": "Your Bot's Token From BotFather Bot","required": true}
+          "TG_BOT_TOKEN": {"description": "7638318856:AAEsIIy6ml_vGNAXQE-T3FK__SwL8qPL9sE","required": true}
     },
     "buildpacks": [
       {"url": "heroku/python"}
